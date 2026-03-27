@@ -7,7 +7,7 @@
         <properties>
             <property name="jakarta.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/esame_biblioteca"/>
             <property name="jakarta.persistence.jdbc.user" value="postgres"/>
-            <property name="jakarta.persistence.jdbc.password" value="LA_TUA_PASSWORD_QUI"/>
+            <property name="jakarta.persistence.jdbc.password" value="060303"/>
             <property name="jakarta.persistence.jdbc.driver" value="org.postgresql.Driver"/>
 
             <property name="hibernate.hbm2ddl.auto" value="update"/>
