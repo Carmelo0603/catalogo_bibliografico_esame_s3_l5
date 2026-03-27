@@ -1,4 +1,5 @@
-import it.epicode.entities.Utente;
+package it.epicode.entities;
+
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityManagerFactory;
 import jakarta.persistence.Persistence;

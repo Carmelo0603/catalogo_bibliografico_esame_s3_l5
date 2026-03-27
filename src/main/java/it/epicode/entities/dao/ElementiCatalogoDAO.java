@@ -1,3 +1,5 @@
+package it.epicode.entities.dao;
+
 import it.epicode.entities.ElementoCatalogo;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.TypedQuery;

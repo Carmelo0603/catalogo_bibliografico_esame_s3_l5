@@ -4,6 +4,12 @@
              xsi:schemaLocation="https://jakarta.ee/xml/ns/persistence https://jakarta.ee/xml/ns/persistence/persistence_3_0.xsd">
 
     <persistence-unit name="CatalogoPU">
+        <class>it.epicode.entities.Utente</class>
+        <class>it.epicode.entities.ElementoCatalogo</class>
+        <class>it.epicode.entities.Libro</class>
+        <class>it.epicode.entities.Rivista</class>
+        <class>it.epicode.entities.Prestito</class>
+
         <properties>
             <property name="jakarta.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/esame_biblioteca"/>
             <property name="jakarta.persistence.jdbc.user" value="postgres"/>
